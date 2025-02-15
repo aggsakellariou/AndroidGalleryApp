@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gallery"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:letterSpacing="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingTop="24dp" />
+
+    <GridLayout
+        android:id="@+id/buttonGrid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/textViewMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/button_all_paintings"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:onClick="onCategoryClick"
+            android:text="@string/all_paintings"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button_blue_period"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:onClick="onCategoryClick"
+            android:text="@string/blue_period"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button_rose_period"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:onClick="onCategoryClick"
+            android:text="@string/rose_period"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button_cubism"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:onClick="onCategoryClick"
+            android:text="@string/cubism"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button_classicism_surrealism"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:onClick="onCategoryClick"
+            android:text="@string/classicism_and_surrealism"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button_later_works"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:onClick="onCategoryClick"
+            android:text="@string/later_works"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:cornerRadius="40dp" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android Gallery App</string>
+    <string name="gallery_painting">Gallery painting</string>
+    <string name="gallery">Picasso Gallery</string>
+    <string name="close">Close</string>
+    <string name="speak">Listen</string>
+    <string name="blue_period">Blue Period (1901–1904)</string>
+    <string name="all_paintings">All Paintings</string>
+    <string name="rose_period">Rose Period (1904–1906)</string>
+    <string name="cubism">Cubism (1907–1917)</string>
+    <string name="classicism_and_surrealism"><![CDATA[Classicism & Surrealism (1917–1937)]]></string>
+    <string name="later_works">Later Works (1937–1973)</string>
+</resources>
