@@ -25,8 +25,6 @@ PicassoGallery is an Android application that showcases Pablo Picasso's artwork,
 
 ## Installation
 
-### Backend Setup
-
 1. Clone this repository to your local machine:
 
     ```bash
